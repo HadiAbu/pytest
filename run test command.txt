@@ -1,0 +1,12 @@
+
+running all the tests in the sub folder:
+
+python -m pytest
+or
+py.test -v
+
+with reasons displayed:
+py.test -v -rxs
+
+run all the test methods that have xxx in their names:
+pytest -k xxx
